@@ -1,4 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #cfd8d7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: lightblue;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #163570;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+a:hover {
+  color: #898ec6;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+nav > ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  margin: 1em;
+}
+
+.current-page {
+  font-weight: bold;
+  color: #081b3f;
+}
+
+.biography-section {
+  display: flex;
+  justify-content: center;
+  background-color: lightyellow;
+  border-radius: 50px;
+}
+
+#title {
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: hsl(236, 74%, 17%);
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+#table-personal-details {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#keanu-meme {
+  max-width: 100%;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: hsl(236, 74%, 17%);
+}
+
+footer {
+  margin-top: 1em;
+  text-align: center;
 }
