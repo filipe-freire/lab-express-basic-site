@@ -1,5 +1,4 @@
 const express = require('express');
-const { request, response } = require('express');
 
 const app = express();
 
@@ -22,7 +21,7 @@ app.get('/photo-gallery', (request, response) => {
 });
 
 app.get('*', (request, response) => {
-  response.send('Hello Word');
+  response.send('Invalid endpoint');
 });
 
 app.listen(3000);
